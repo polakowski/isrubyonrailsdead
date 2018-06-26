@@ -1,0 +1,30 @@
+body, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 14px;
+  background: #1d1b1b;
+  -webkit-font-smoothing: antialiased;
+}
+
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.h4 {
+  color: #988a8a;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+.h1 {
+  color: #43d687;
+  font-size: 5em;
+  font-weight: bold;
+}
