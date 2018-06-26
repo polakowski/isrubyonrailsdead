@@ -12,4 +12,6 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'index.html'));
 });
 
-app.listen(3000, () => console.log('Example app listening on port 3000!'))
+app.listen(port, () => {
+  console.log('App is live on port ' + port + '!')
+});
